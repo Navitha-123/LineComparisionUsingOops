@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace LineComparisionUsingOops
 {
-    internal class LengthEqual
+    internal class CompareLength
     {
-       public  static void LengthEqualCheck()
+        public static void TwoLengthsCompare()
         {
             Console.WriteLine("Enter the value of x1");
             int x1 = Convert.ToInt32(Console.ReadLine());
@@ -28,24 +28,18 @@ namespace LineComparisionUsingOops
             int q2 = Convert.ToInt32(Console.ReadLine());
             double length1 = Math.Sqrt((x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1));
             double length2 = Math.Sqrt((p2 - p1) * (p2 - p1) + (q2 - q1) * (q2 - q1));
-            if (length1.Equals(length2))
+            if(length1.CompareTo(length2) == 0)
             {
-                Console.WriteLine("Both lines are equals");
-               
+                Console.WriteLine("The two lengths are equal");
+            }
+            else if(length1.CompareTo(length2) > 0)
+            {
+                Console.WriteLine("the length1 is greater than length2");
             }
             else
             {
-                Console.WriteLine("Both lines are not equals");
-               
+                Console.WriteLine("length1 is less than length2");
             }
         }
-        
-       
     }
-       
-           
-
-
-
-    
 }

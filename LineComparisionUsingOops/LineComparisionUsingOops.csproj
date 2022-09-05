@@ -43,8 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EqualLength.cs" />
-    <Compile Include="LengthOfTwo.cs" />
+    <Compile Include="CompareLength.cs" />
+    <Compile Include="LengthEqual.cs" />
+    <Compile Include="LengthTwoLines.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

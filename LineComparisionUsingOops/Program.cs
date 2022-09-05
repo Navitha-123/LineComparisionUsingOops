@@ -10,7 +10,7 @@ namespace LineComparisionUsingOops
     {
        public  static void Main(string[] args)
         {
-            Console.WriteLine("choose option 1.Lengthoftwo \t 2.Equal");
+            Console.WriteLine("choose option 1.Lengthoftwo \t 2.Equal \t 3.Compare");
             Console.WriteLine("Enter the number");
             int option = Convert.ToInt32(Console.ReadLine());
             switch(option)
@@ -19,7 +19,13 @@ namespace LineComparisionUsingOops
                     LengthTwoLines.CalculateTwoLineLength();
                     break;
                 case 2:
-                    EqualLength.LengthEqualCheck();
+                    LengthEqual.LengthEqualCheck();
+                    break;
+                case 3:
+                    CompareLength.TwoLengthsCompare();
+                    break;
+                default:
+                    Console.WriteLine("Enter wwrong choice");
                     break;
                     Console.ReadLine();
             }
