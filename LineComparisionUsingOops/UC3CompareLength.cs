@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LineComparisionUsingOops
 {
-    internal class CompareLength
+    internal class UC3CompareLength
     {
         public static void TwoLengthsCompare()
         {

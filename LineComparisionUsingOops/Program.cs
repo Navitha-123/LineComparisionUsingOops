@@ -16,10 +16,10 @@ namespace LineComparisionUsingOops
             switch(option)
             {
                 case 1:
-                    LengthTwoLines.CalculateTwoLineLength();
+                    UC1LengthTwoLines.CalculateTwoLineLength();
                     break;
                 case 2:
-                    LengthEqual.LengthEqualCheck();
+                    UC2LengthEqual.LengthEqualCheck();
                     break;
                 case 3:
                     CompareLength.TwoLengthsCompare();
