@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LineComparisionUsingOops
 {
-    internal class LengthTwoLines
+    internal class UC1LengthTwoLines
     {
        public static void CalculateTwoLineLength()
         {
