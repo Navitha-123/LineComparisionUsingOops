@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LineComparisionUsingOops
 {
-    internal class LengthEqual
+    internal class UC2LengthEqual
     {
        public  static void LengthEqualCheck()
         {
